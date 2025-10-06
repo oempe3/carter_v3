@@ -1,0 +1,1842 @@
+[
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#1",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 51.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#2",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 7881.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#3",
+    "carter_rdo": 27.0,
+    "carter_inspec": null,
+    "h_rdo": 5602.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#4",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 962.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#5",
+    "carter_rdo": 27.0,
+    "carter_inspec": null,
+    "h_rdo": 8565.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#6",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 11176.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#7",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 8900.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#8",
+    "carter_rdo": 31.0,
+    "carter_inspec": null,
+    "h_rdo": 10851.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#9",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 2972.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#10",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 158.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#11",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 7818.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#12",
+    "carter_rdo": 21.0,
+    "carter_inspec": null,
+    "h_rdo": 11161.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#13",
+    "carter_rdo": 27.0,
+    "carter_inspec": null,
+    "h_rdo": 8798.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#14",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 105.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#15",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 222.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#16",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 112.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#17",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 8853.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#18",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 13604.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#19",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 11078.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#20",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 10015.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#21",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 11425.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#22",
+    "carter_rdo": 27.0,
+    "carter_inspec": null,
+    "h_rdo": 9964.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-02",
+    "motor": "Motor#23",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 12221.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#1",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 52.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#2",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 7882.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#3",
+    "carter_rdo": 27.0,
+    "carter_inspec": null,
+    "h_rdo": 5607.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#4",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 964.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#5",
+    "carter_rdo": 27.0,
+    "carter_inspec": null,
+    "h_rdo": 8579.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#6",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 11188.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#7",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 8906.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#8",
+    "carter_rdo": 31.0,
+    "carter_inspec": null,
+    "h_rdo": 10853.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#9",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 2974.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#10",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 174.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#11",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 7818.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#12",
+    "carter_rdo": 21.0,
+    "carter_inspec": null,
+    "h_rdo": 11173.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#13",
+    "carter_rdo": 27.0,
+    "carter_inspec": null,
+    "h_rdo": 8798.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#14",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 105.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#15",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 222.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#16",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 112.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#17",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 8853.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#18",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 13604.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#19",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 11078.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#20",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 10015.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#21",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 11425.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#22",
+    "carter_rdo": 27.0,
+    "carter_inspec": null,
+    "h_rdo": 9964.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-01-31",
+    "motor": "Motor#23",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 12221.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#1",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 63.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#2",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 7891.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#3",
+    "carter_rdo": 27.0,
+    "carter_inspec": null,
+    "h_rdo": 5616.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#4",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 973.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#5",
+    "carter_rdo": 27.0,
+    "carter_inspec": null,
+    "h_rdo": 8584.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#6",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 11193.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#7",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 8906.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#8",
+    "carter_rdo": 31.0,
+    "carter_inspec": null,
+    "h_rdo": 10853.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#9",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 2974.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#10",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 174.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#11",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 7818.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#12",
+    "carter_rdo": 21.0,
+    "carter_inspec": null,
+    "h_rdo": 11173.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#13",
+    "carter_rdo": 27.0,
+    "carter_inspec": null,
+    "h_rdo": 8798.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#14",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 105.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#15",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 222.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#16",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 112.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#17",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 8853.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#18",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 13604.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#19",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 11078.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#20",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 10015.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#21",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 11425.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#22",
+    "carter_rdo": 27.0,
+    "carter_inspec": null,
+    "h_rdo": 9964.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-02-28",
+    "motor": "Motor#23",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 12222.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#1",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 63.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#2",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 7891.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#3",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 5616.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#4",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 973.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#5",
+    "carter_rdo": 30.0,
+    "carter_inspec": null,
+    "h_rdo": 8589.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#6",
+    "carter_rdo": 23.0,
+    "carter_inspec": null,
+    "h_rdo": 11197.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#7",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 8911.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#8",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 10855.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#9",
+    "carter_rdo": 23.0,
+    "carter_inspec": null,
+    "h_rdo": 2977.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#10",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 178.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#11",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 7822.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#12",
+    "carter_rdo": 20.0,
+    "carter_inspec": null,
+    "h_rdo": 11176.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#13",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 8803.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#14",
+    "carter_rdo": 28.0,
+    "carter_inspec": null,
+    "h_rdo": 111.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#15",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 228.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#16",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 118.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#17",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 8859.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#18",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 13610.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#19",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 11078.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#20",
+    "carter_rdo": 23.0,
+    "carter_inspec": null,
+    "h_rdo": 10015.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#21",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 11425.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#22",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 9964.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-03-31",
+    "motor": "Motor#23",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 12222.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#1",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 77.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#2",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 7901.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#3",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 5627.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#4",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 980.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#5",
+    "carter_rdo": 30.0,
+    "carter_inspec": null,
+    "h_rdo": 8599.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#6",
+    "carter_rdo": 23.0,
+    "carter_inspec": null,
+    "h_rdo": 11208.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#7",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 8919.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#8",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 10861.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#9",
+    "carter_rdo": 23.0,
+    "carter_inspec": null,
+    "h_rdo": 2985.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#10",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 186.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#11",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 7830.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#12",
+    "carter_rdo": 20.0,
+    "carter_inspec": null,
+    "h_rdo": 11184.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#13",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 8809.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#14",
+    "carter_rdo": 28.0,
+    "carter_inspec": null,
+    "h_rdo": 121.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#15",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 231.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#16",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 126.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#17",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 8867.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#18",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 13617.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#19",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 11085.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#20",
+    "carter_rdo": 23.0,
+    "carter_inspec": null,
+    "h_rdo": 10025.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#21",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 11434.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#22",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 9975.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-04-30",
+    "motor": "Motor#23",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 12232.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#1",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 94.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#2",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 7920.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#3",
+    "carter_rdo": 23.0,
+    "carter_inspec": null,
+    "h_rdo": 5647.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#4",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 985.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#5",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 8604.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#6",
+    "carter_rdo": 23.0,
+    "carter_inspec": null,
+    "h_rdo": 11231.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#7",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 8919.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#8",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 10861.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#9",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 2985.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#10",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 186.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#11",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 7830.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#12",
+    "carter_rdo": 21.0,
+    "carter_inspec": null,
+    "h_rdo": 11184.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#13",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 8629.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#14",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 142.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#15",
+    "carter_rdo": 27.0,
+    "carter_inspec": null,
+    "h_rdo": 249.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#16",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 144.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#17",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 8883.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#18",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 13632.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#19",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 11094.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#20",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 10025.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#21",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 11401.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#22",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 9985.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-05-31",
+    "motor": "Motor#23",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 12232.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#1",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 101.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#2",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 7927.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#3",
+    "carter_rdo": 23.0,
+    "carter_inspec": null,
+    "h_rdo": 5654.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#4",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 985.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#5",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 8604.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#6",
+    "carter_rdo": 23.0,
+    "carter_inspec": null,
+    "h_rdo": 11242.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#7",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 8922.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#8",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 10863.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#9",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 2987.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#10",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 190.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#11",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 7835.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#12",
+    "carter_rdo": 21.0,
+    "carter_inspec": null,
+    "h_rdo": 11187.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#13",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 8629.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#14",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 142.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#15",
+    "carter_rdo": 27.0,
+    "carter_inspec": null,
+    "h_rdo": 249.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#16",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 144.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#17",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 8883.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#18",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 13632.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#19",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 11094.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#20",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 10025.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#21",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 11401.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#22",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 9985.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-06-30",
+    "motor": "Motor#23",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 12232.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#1",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 118.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#2",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 7941.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#3",
+    "carter_rdo": 23.0,
+    "carter_inspec": null,
+    "h_rdo": 5669.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#4",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 1002.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#5",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 8605.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#6",
+    "carter_rdo": 23.0,
+    "carter_inspec": null,
+    "h_rdo": 11257.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#7",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 8935.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#8",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 10874.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#9",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 3006.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#10",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 202.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#11",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 7847.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#12",
+    "carter_rdo": 21.0,
+    "carter_inspec": null,
+    "h_rdo": 11200.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#13",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 8629.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#14",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 152.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#15",
+    "carter_rdo": 27.0,
+    "carter_inspec": null,
+    "h_rdo": 274.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#16",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 169.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#17",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 8903.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#18",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 13653.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#19",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 11112.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#20",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 10045.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#21",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 11459.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#22",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 10005.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-07-31",
+    "motor": "Motor#23",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 12251.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#1",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 118.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#2",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 7941.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#3",
+    "carter_rdo": 23.0,
+    "carter_inspec": null,
+    "h_rdo": 5669.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#4",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 1002.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#5",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 8605.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#6",
+    "carter_rdo": 23.0,
+    "carter_inspec": null,
+    "h_rdo": 11257.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#7",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 8935.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#8",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 10874.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#9",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 3006.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#10",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 202.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#11",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 7847.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#12",
+    "carter_rdo": 21.0,
+    "carter_inspec": null,
+    "h_rdo": 11200.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#13",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 8864.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#14",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 154.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#15",
+    "carter_rdo": 27.0,
+    "carter_inspec": null,
+    "h_rdo": 276.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#16",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 169.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#17",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 8907.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#18",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 13654.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#19",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 11116.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#20",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 10045.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#21",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 11462.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#22",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 10008.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-08-31",
+    "motor": "Motor#23",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 12255.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#1",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 126.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#2",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 7941.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#3",
+    "carter_rdo": 23.0,
+    "carter_inspec": null,
+    "h_rdo": 5677.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#4",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 1003.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#5",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 8605.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#6",
+    "carter_rdo": 23.0,
+    "carter_inspec": null,
+    "h_rdo": 11262.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#7",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 844.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#8",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 10874.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#9",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 3015.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#10",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 203.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#11",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 7856.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#12",
+    "carter_rdo": 21.0,
+    "carter_inspec": null,
+    "h_rdo": 11200.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#13",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 8864.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#14",
+    "carter_rdo": 29.0,
+    "carter_inspec": null,
+    "h_rdo": 166.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#15",
+    "carter_rdo": 27.0,
+    "carter_inspec": null,
+    "h_rdo": 286.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#16",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 183.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#17",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 8916.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#18",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 13664.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#19",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 11126.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#20",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 10060.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#21",
+    "carter_rdo": 24.0,
+    "carter_inspec": null,
+    "h_rdo": 11471.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#22",
+    "carter_rdo": 26.0,
+    "carter_inspec": null,
+    "h_rdo": 10016.0,
+    "h_inspec": null
+  },
+  {
+    "date": "2025-09-30",
+    "motor": "Motor#23",
+    "carter_rdo": 25.0,
+    "carter_inspec": null,
+    "h_rdo": 12264.0,
+    "h_inspec": null
+  }
+]

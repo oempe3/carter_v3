@@ -1,0 +1,140 @@
+{
+  "Motor#1": {
+    "consumo_rdo": 66.0,
+    "consumo_inspec": null,
+    "H": 75.0,
+    "L_H": 0.88
+  },
+  "Motor#2": {
+    "consumo_rdo": 66.0,
+    "consumo_inspec": null,
+    "H": 60.0,
+    "L_H": 1.1
+  },
+  "Motor#3": {
+    "consumo_rdo": 264.0,
+    "consumo_inspec": null,
+    "H": 75.0,
+    "L_H": 3.52
+  },
+  "Motor#4": {
+    "consumo_rdo": 0.0,
+    "consumo_inspec": null,
+    "H": 41.0,
+    "L_H": 0.0
+  },
+  "Motor#5": {
+    "consumo_rdo": -132.0,
+    "consumo_inspec": null,
+    "H": 40.0,
+    "L_H": -3.3
+  },
+  "Motor#6": {
+    "consumo_rdo": 66.0,
+    "consumo_inspec": null,
+    "H": 86.0,
+    "L_H": 0.7674418604651163
+  },
+  "Motor#7": {
+    "consumo_rdo": 66.0,
+    "consumo_inspec": null,
+    "H": -8056.0,
+    "L_H": -0.008192651439920555
+  },
+  "Motor#8": {
+    "consumo_rdo": 132.0,
+    "consumo_inspec": null,
+    "H": 23.0,
+    "L_H": 5.739130434782608
+  },
+  "Motor#9": {
+    "consumo_rdo": 0.0,
+    "consumo_inspec": null,
+    "H": 43.0,
+    "L_H": 0.0
+  },
+  "Motor#10": {
+    "consumo_rdo": 132.0,
+    "consumo_inspec": null,
+    "H": 45.0,
+    "L_H": 2.933333333333333
+  },
+  "Motor#11": {
+    "consumo_rdo": 66.0,
+    "consumo_inspec": null,
+    "H": 38.0,
+    "L_H": 1.736842105263158
+  },
+  "Motor#12": {
+    "consumo_rdo": 0.0,
+    "consumo_inspec": null,
+    "H": 39.0,
+    "L_H": 0.0
+  },
+  "Motor#13": {
+    "consumo_rdo": 132.0,
+    "consumo_inspec": null,
+    "H": 66.0,
+    "L_H": 2.0
+  },
+  "Motor#14": {
+    "consumo_rdo": 0.0,
+    "consumo_inspec": null,
+    "H": 61.0,
+    "L_H": 0.0
+  },
+  "Motor#15": {
+    "consumo_rdo": -66.0,
+    "consumo_inspec": null,
+    "H": 64.0,
+    "L_H": -1.03125
+  },
+  "Motor#16": {
+    "consumo_rdo": 0.0,
+    "consumo_inspec": null,
+    "H": 71.0,
+    "L_H": 0.0
+  },
+  "Motor#17": {
+    "consumo_rdo": 0.0,
+    "consumo_inspec": null,
+    "H": 63.0,
+    "L_H": 0.0
+  },
+  "Motor#18": {
+    "consumo_rdo": 0.0,
+    "consumo_inspec": null,
+    "H": 60.0,
+    "L_H": 0.0
+  },
+  "Motor#19": {
+    "consumo_rdo": 0.0,
+    "consumo_inspec": null,
+    "H": 48.0,
+    "L_H": 0.0
+  },
+  "Motor#20": {
+    "consumo_rdo": 0.0,
+    "consumo_inspec": null,
+    "H": 45.0,
+    "L_H": 0.0
+  },
+  "Motor#21": {
+    "consumo_rdo": 66.0,
+    "consumo_inspec": null,
+    "H": 46.0,
+    "L_H": 1.434782608695652
+  },
+  "Motor#22": {
+    "consumo_rdo": 66.0,
+    "consumo_inspec": null,
+    "H": 52.0,
+    "L_H": 1.2692307692307692
+  },
+  "Motor#23": {
+    "consumo_rdo": 66.0,
+    "consumo_inspec": null,
+    "H": 43.0,
+    "L_H": 1.5348837209302326
+  }
+}

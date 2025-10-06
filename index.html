@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nível do cárter x horímetro</title>
+    <!-- Plotly library for interactive charts -->
+    <script src="https://cdn.plot.ly/plotly-2.24.2.min.js"></script>
+    <style>
+        /*
+         * Tema escuro e moderno inspirado nos exemplos fornecidos.
+         * Utiliza um esquema de cores sóbrio e uma tipografia simples para
+         * melhor legibilidade. Os cartões são organizados em grid e cada um
+         * recebe uma cor de destaque no topo correspondente à cor da série
+         * do gráfico.
+         */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        /* Moldura em torno da logomarca e nome da empresa */
+        .logo-frame {
+            display: flex;
+            align-items: center;
+            border: 2px solid #444444;
+            border-radius: 8px;
+            padding: 8px;
+            margin-bottom: 12px;
+            width: 100%;
+        }
+
+        .logo-frame img {
+            height: 60px;
+            width: auto;
+            margin-right: 10px;
+        }
+
+        .logo-frame .company-name {
+            flex: 1;
+            text-align: center;
+            font-size: 1.6rem;
+            color: #ffffff;
+        }
+
+        .title {
+            margin-top: 12px;
+            margin-bottom: 12px;
+            font-size: 1.4rem;
+            color: #ffffff;
+        }
+
+
+        /* Botões para seleção de motores */
+        .motor-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .motor-button {
+            border: none;
+            border-radius: 4px;
+            padding: 6px 10px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: opacity 0.2s ease-in-out;
+            color: #ffffff;
+        }
+
+        .motor-button.inactive {
+            opacity: 0.35;
+        }
+
+        .chart-container {
+            width: 100%;
+            height: 500px;
+            margin-bottom: 20px;
+        }
+
+        .cards-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 16px;
+        }
+
+        .card {
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            padding: 12px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+            border-top: 4px solid #ffffff;
+        }
+
+        .card h3 {
+            margin: 0;
+            margin-bottom: 6px;
+            font-size: 1.0rem;
+            color: #ffffff;
+        }
+
+        .card p {
+            margin: 4px 0;
+            font-size: 0.85rem;
+            color: #cccccc;
+        }
+
+        .footer {
+            margin-top: 32px;
+            text-align: center;
+            color: #888888;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <!-- Logomarca e nome da empresa envoltos em uma moldura quadrada -->
+            <div class="logo-frame">
+                <img src="logo.png" alt="Logomarca Pernambuco III">
+                <span class="company-name">UTE PERNAMBUCO III</span>
+            </div>
+        </header>
+        <!-- Título principal -->
+        <h2 class="title">Nível do cárter x horas trabalhadas separadoras 2025</h2>
+        <!-- Botões de seleção de motores -->
+        <div class="motor-buttons" id="motor-buttons"></div>
+        <!-- Contêiner do gráfico -->
+        <div id="chart" class="chart-container"></div>
+        <!-- Cartões resumo dos motores -->
+        <section id="cards" class="cards-container"></section>
+        <!-- Rodapé -->
+        <footer class="footer">
+            <p>O&amp;M Pernambuco III</p>
+        </footer>
+    </div>
+    <script>
+        /*
+         * Definição de cores para as 23 séries. Escolhemos cores distintas
+         * evitando verdes fluorescentes para que a linha verde pontilhada
+         * das datas se destaque e não coincida com nenhuma série. As cores
+         * são atribuídas na ordem dos motores (Motor#1, Motor#2, ...).
+         */
+        const seriesColors = [
+            '#1f77b4', '#ff7f0e', '#d62728', '#9467bd', '#8c564b',
+            '#e377c2', '#7f7f7f', '#bcbd22', '#17becf', '#aec7e8',
+            '#ffbb78', '#ff9896', '#c5b0d5', '#c49c94', '#f7b6d2',
+            '#c7c7c7', '#dbdb8d', '#9edae5', '#393b79', '#5254a3',
+            '#6b6ecf', '#9c9ede', '#e6550d'
+        ];
+
+        let data = [];
+        let summary = {};
+        let motors = [];
+        let grouped = {};
+        let colorMap = {};
+        let uniqueDates = [];
+        // Dicionário que indica se cada motor está ativo (selecionado). Chaves: nome do motor; valores: boolean.
+        const activeMotors = {};
+
+        /**
+         * Carrega os dados e o resumo a partir dos arquivos JSON.
+         * Após o carregamento, prepara os elementos da página e o gráfico.
+         */
+        function loadData() {
+            Promise.all([
+                fetch('carter_data.json').then(resp => resp.json()),
+                fetch('carter_summary.json').then(resp => resp.json())
+            ]).then(([d, s]) => {
+                data = d;
+                summary = s;
+                // Obter lista de motores únicos e ordená-los numericamente
+                motors = Array.from(new Set(data.map(r => r.motor)));
+                motors.sort((a, b) => parseInt(a.replace('Motor#', '')) - parseInt(b.replace('Motor#', '')));
+                // Mapear cores para cada motor
+                motors.forEach((m, i) => {
+                    colorMap[m] = seriesColors[i % seriesColors.length];
+                });
+                // Agrupar os registros por motor e ordenar por data
+                motors.forEach(m => {
+                    grouped[m] = data.filter(r => r.motor === m)
+                        .sort((a, b) => new Date(a.date) - new Date(b.date));
+                });
+                // Lista de datas únicas para desenhar linhas verticais
+                uniqueDates = Array.from(new Set(data.map(r => r.date))).sort();
+                // Inicializar activeMotors e construir botões para seleção
+                const buttonsContainer = document.getElementById('motor-buttons');
+                motors.forEach(m => {
+                    activeMotors[m] = true;
+                    const btn = document.createElement('button');
+                    btn.className = 'motor-button';
+                    btn.textContent = m;
+                    btn.style.backgroundColor = colorMap[m];
+                    btn.style.color = getTextColor(colorMap[m]);
+                    btn.dataset.motor = m;
+                    btn.dataset.active = 'true';
+                    btn.addEventListener('click', () => toggleMotor(btn));
+                    buttonsContainer.appendChild(btn);
+                });
+                // Construir cartões resumo
+                buildSummaryCards();
+                // Desenhar o gráfico
+                buildChart();
+            }).catch(err => {
+                console.error('Erro ao carregar dados:', err);
+            });
+        }
+
+        /**
+         * Constrói os cartões de resumo de cada motor com as métricas calculadas.
+         */
+        function buildSummaryCards() {
+            const container = document.getElementById('cards');
+            container.innerHTML = '';
+            motors.forEach(motor => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                // Definir a cor da borda superior do cartão conforme a cor da série
+                card.style.borderTopColor = colorMap[motor];
+                const summaryData = summary[motor] || {};
+                // Determinar o ano a partir da primeira data do motor
+                const year = grouped[motor] && grouped[motor].length ? grouped[motor][0].date.substring(0, 4) : '';
+                // Título do cartão
+                const title = document.createElement('h3');
+                title.textContent = `${motor} ${year}:`;
+                card.appendChild(title);
+                // Consumo RDO
+                const pRdo = document.createElement('p');
+                if (summaryData.consumo_rdo !== null && summaryData.consumo_rdo !== undefined) {
+                    pRdo.innerHTML = `<strong>Consumo de OL [RDO]:</strong> ${summaryData.consumo_rdo.toFixed(0)} L`;
+                } else {
+                    pRdo.innerHTML = `<strong>Consumo de OL [RDO]:</strong> —`;
+                }
+                card.appendChild(pRdo);
+                // Consumo Inspeção
+                const pIns = document.createElement('p');
+                if (summaryData.consumo_inspec !== null && summaryData.consumo_inspec !== undefined) {
+                    pIns.innerHTML = `<strong>Consumo de OL [Inspeção]:</strong> ${summaryData.consumo_inspec.toFixed(0)} L`;
+                } else {
+                    pIns.innerHTML = `<strong>Consumo de OL [Inspeção]:</strong> —`;
+                }
+                card.appendChild(pIns);
+                // Horas
+                const pH = document.createElement('p');
+                if (summaryData.H !== null && summaryData.H !== undefined) {
+                    pH.innerHTML = `<strong>H:</strong> ${summaryData.H.toFixed(0)} h`;
+                } else {
+                    pH.innerHTML = `<strong>H:</strong> —`;
+                }
+                card.appendChild(pH);
+                // Litros por hora
+                const pLH = document.createElement('p');
+                if (summaryData.L_H !== null && summaryData.L_H !== undefined) {
+                    pLH.innerHTML = `<strong>L/H (Litros/hora):</strong> ${summaryData.L_H.toFixed(2)}`;
+                } else {
+                    pLH.innerHTML = `<strong>L/H (Litros/hora):</strong> —`;
+                }
+                card.appendChild(pLH);
+                container.appendChild(card);
+            });
+        }
+
+        /**
+         * Calcula a cor do texto (preto ou branco) a partir de uma cor de fundo em hexadecimal.
+         * Isso garante contraste adequado nos botões dos motores.
+         * @param {string} hex - Uma cor no formato '#rrggbb'.
+         * @returns {string} - '#000' ou '#fff' dependendo do brilho.
+         */
+        function getTextColor(hex) {
+            const r = parseInt(hex.slice(1, 3), 16);
+            const g = parseInt(hex.slice(3, 5), 16);
+            const b = parseInt(hex.slice(5, 7), 16);
+            const brightness = 0.299 * r + 0.587 * g + 0.114 * b;
+            return brightness > 186 ? '#000' : '#fff';
+        }
+
+        /**
+         * Alterna o estado (ativo/inativo) de um botão de motor quando clicado.
+         * Atualiza a lista de motores ativos e redesenha o gráfico.
+         * @param {HTMLElement} button
+         */
+        function toggleMotor(button) {
+            const motor = button.dataset.motor;
+            const isActive = activeMotors[motor];
+            // inverter estado
+            activeMotors[motor] = !isActive;
+            // atualizar classe do botão
+            if (isActive) {
+                button.classList.add('inactive');
+            } else {
+                button.classList.remove('inactive');
+            }
+            // redesenhar gráfico com os motores ativos
+            buildChart();
+        }
+
+        /**
+         * Constrói o gráfico com base nos motores ativos.
+         * Agrupa dados, calcula customdata e desenha linhas verticais.
+         */
+        function buildChart() {
+            const traces = [];
+            const motorsToPlot = motors.filter(m => activeMotors[m]);
+            motorsToPlot.forEach(motor => {
+                const recs = grouped[motor] || [];
+                if (!recs.length) return;
+                const x = [];
+                const y = [];
+                const text = [];
+                const customdata = [];
+                const firstH = recs.find(r => r.h_rdo !== null && r.h_rdo !== undefined)?.h_rdo;
+                let prevH = null;
+                recs.forEach(rec => {
+                    x.push(rec.date);
+                    y.push(rec.carter_rdo);
+                    text.push(rec.h_rdo !== null && rec.h_rdo !== undefined ? rec.h_rdo.toString() : '');
+                    const dif = (rec.carter_inspec !== null && rec.carter_inspec !== undefined && rec.carter_rdo !== null && rec.carter_rdo !== undefined) ? (rec.carter_rdo - rec.carter_inspec) : null;
+                    const anoDiff = (rec.h_rdo !== null && rec.h_rdo !== undefined && firstH !== undefined && firstH !== null) ? (rec.h_rdo - firstH) : null;
+                    const mesDiff = (rec.h_rdo !== null && rec.h_rdo !== undefined && prevH !== null && prevH !== undefined) ? (rec.h_rdo - prevH) : null;
+                    customdata.push([
+                        rec.carter_inspec !== null && rec.carter_inspec !== undefined ? `${rec.carter_inspec} cm` : '—',
+                        rec.h_inspec !== null && rec.h_inspec !== undefined ? `${rec.h_inspec} h` : '—',
+                        dif !== null && dif !== undefined ? `${dif.toFixed(2)} cm` : '—',
+                        anoDiff !== null && anoDiff !== undefined ? `${anoDiff} h` : '—',
+                        mesDiff !== null && mesDiff !== undefined ? `${mesDiff} h` : '—'
+                    ]);
+                    prevH = rec.h_rdo;
+                });
+                traces.push({
+                    x: x,
+                    y: y,
+                    name: motor,
+                    mode: 'lines+markers+text',
+                    line: { shape: 'spline', color: colorMap[motor] },
+                    marker: { color: colorMap[motor], size: 6 },
+                    text: text,
+                    textposition: 'top left',
+                    textfont: { color: colorMap[motor], size: 9 },
+                    customdata: customdata,
+                    hovertemplate: '<b>%{meta}</b><br>Data: %{x}<br>Nível: %{y} cm' +
+                        '<br>Inspeção: %{customdata[0]}' +
+                        '<br>H_inspeção: %{customdata[1]}' +
+                        '<br>Dif_cm: %{customdata[2]}' +
+                        '<br>Horas ano: %{customdata[3]}' +
+                        '<br>Horas mês: %{customdata[4]}' +
+                        '<extra></extra>',
+                    meta: motor
+                });
+            });
+            const layout = {
+                xaxis: {
+                    title: 'Data',
+                    color: '#ffffff',
+                    gridcolor: '#333333',
+                    tickformat: '%d/%m/%Y'
+                },
+                yaxis: {
+                    title: 'Nível do cárter [cm]',
+                    color: '#ffffff',
+                    gridcolor: '#333333',
+                    range: [6, 35]
+                },
+                paper_bgcolor: '#121212',
+                plot_bgcolor: '#121212',
+                showlegend: false,
+                margin: { t: 80, l: 60, r: 40, b: 80 },
+                shapes: uniqueDates.map(date => ({
+                    type: 'line',
+                    x0: date,
+                    x1: date,
+                    yref: 'paper',
+                    y0: 0,
+                    y1: 1,
+                    line: {
+                        color: '#39FF14',
+                        width: 1,
+                        dash: 'dot'
+                    }
+                })),
+                title: {
+                    text: '',
+                    font: { color: '#ffffff' }
+                }
+            };
+            Plotly.newPlot('chart', traces, layout, { responsive: true });
+        }
+
+        // Iniciar carregamento após o DOM estar pronto
+        window.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>
